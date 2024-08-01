@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.phone{
+    width: 320px;
+    height: 680px;
+    border: 5px solid;
+    border-top-color: rgb(212, 255, 255);
+    border-left-color: rgb(212, 255, 255);
+    border-bottom-color: rgb(135, 161, 161);
+    border-right-color: rgb(135, 161, 161);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: azure;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+.mic{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.screen{
+    width: 95%;
+    height: 80%;
+    background-color: black; 
+}
+
+.home{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border-top-color: rgb(176, 198, 198);
+    border-left-color: rgb(176, 198, 198);
+    border-bottom-color: rgb(212, 255, 255);
+    border-right-color: rgb(212, 255, 255);
+}
+
+.camera{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 0;
+}
+
+.speaker{
+    width: 50px;
+    height: 7px;
+    border-radius: 20%;
+    background-color: black;
+
+}
